@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Fondamento:ital@0;1&family=Homemade+Apple&family=Radley:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Seletores personalizados
+
+#  = id
+.  = class
+:  = pseudo-class
+:: = pseudo-element
+>  = children
+
+*/
+
+        body{
+            
+            font-family: "Radley", serif;
+            font-size: 16px;
+            background-image: linear-gradient(90deg, rgb(94, 98, 112),rgb(193, 201, 227),rgb(193, 201, 227),rgb(193, 201, 227),rgb(193, 201, 227),rgb(193, 201, 227),rgb(193, 201, 227),rgb(94, 98, 112));
+            
+
+        }
+
+        a{
+            color: rgb(0, 0, 0);
+            text-shadow: rgba(0, 0, 0, 0.597) 3px 3px 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: rgb(131, 0, 0);
+
+        }
+
+        a:hover{
+            text-decoration: underline rgb(255, 189, 23);
+            text-shadow: goldenrod 3px 3px 5px;
+        }
+
+        a:active{
+            color: goldenrod;
+        }
+
+        a::before{
+            content: " ⮘";
+            text-decoration: none;
+            color: rgb(78, 78, 78);
+            text-shadow: none;
+        }
+
+        a::after{
+            content: " ⮚";
+            text-decoration: none;
+            color: rgb(78, 78, 78);
+            text-shadow: none;
+        }
+
+        .especial{
+            background-color: cornsilk;
+            border-radius: 9px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Personalizando links</h1>
+
+    <ul>
+
+        <li><a href="https://github.com/gustavoguanabara" target="_blank" rel="external">github</a></li>
+        
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&t=212s" target="_blank" rel="external" class="especial">youtube</a></li>
+        
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank" rel="external">curso em video</a></li>
+    
+    </ul>
+    
+</body>
+</html>

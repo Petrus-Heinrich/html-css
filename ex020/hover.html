@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de hover</title>
+
+    <style>
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            color: greenyellow;
+            background-color: grey;
+            width: 200px;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.537) 3px 3px 5px;
+            border: 0.5px solid rgb(83, 138, 0);
+        }
+
+        div:hover{
+            color: rgb(170, 0, 0);
+        }
+
+    </style>
+
+</head>
+
+<body>
+   
+    <h1>Exemplos de hover</h1>
+    
+    <p>Passe o mouse na &lt;div&gt; abaixo</p>
+    
+    <div>Passe o mouse aqui
+        <p>
+            texto escondido...
+        </p>
+    </div>
+    
+    <p>Fim do exemplo</p>
+
+</body>
+
+</html>

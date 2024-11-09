@@ -1,0 +1,26 @@
+body{
+    background-image: url(wpM.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+h1{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    box-shadow: black 5px 5px 50px;
+}
+p{
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    text-shadow: rgb(0, 0, 0) 1px 1px 20px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.2px;
+    -webkit-text-stroke-color: rgb(51, 255, 0);
+    
+}
+img{
+    block-size: 200px;
+
+}

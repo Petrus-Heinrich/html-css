@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Fondamento:ital@0;1&family=Homemade+Apple&family=Overpass:ital,wght@0,100..900;1,100..900&family=Radley:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Fondamento:ital@0;1&family=Homemade+Apple&family=Overpass:ital,wght@0,100..900;1,100..900&family=Radley:ital@0;1&family=Share+Tech+Mono&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap');
+
+body{
+    background-image: url(bgvs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin: 0px;
+    font-size: 16px;
+    font-family: "Share Tech Mono", monospace;
+
+
+    color: white;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    box-shadow: 0px 0px 10px lime;
+    padding: 4px;
+    font-family: "Zen Dots", sans-serif;
+}
+
+h1{
+    text-shadow: 0px 0px 5px lime;
+}
+
+a{
+    color: white;
+    word-spacing: 40px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-shadow: rgb(0, 255, 26) 0px 0px 20px;
+    font-size: 20px;
+    -webkit-text-stroke-color: rgb(81, 255, 0);
+    -webkit-text-stroke-width: 0.5px;
+    color:lime;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.895);
+    margin: 10px;
+    border-radius: 20px;
+    padding: 60px;
+}
+
+h2{
+    font-family: "Zen Dots", sans-serif;
+}
+
+aside{
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(17, 17, 17, 0.632);
+    border-radius: 20px;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    bottom: 0%;
+    text-align: center;
+    padding: 5px;
+    font-style: italic;
+}

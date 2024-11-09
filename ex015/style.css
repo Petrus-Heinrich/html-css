@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+
+    background-color: rgb(221, 245, 255);
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+    
+}
+
+h1{
+
+    color: rgb(2, 2, 104);
+    text-shadow: rgb(0, 0, 0) 0px 0px 15px;
+
+}

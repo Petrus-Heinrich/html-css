@@ -1,0 +1,28 @@
+body{
+    background-image: url(imgwp1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 27%;
+    background-size: 1536px;
+    font-family:'Times New Roman';
+    text-shadow: rgb(255, 255, 255) 0px 0px 5px;
+    text-align: center;
+
+    p{
+        font-size: 20px;
+    }
+    
+}
+
+
+div{
+    text-align: center;
+    video{
+        box-shadow: blueviolet 0px 0px 10px;
+        border-radius: 20px;
+    }
+}
+
+iframe{
+    box-shadow: blueviolet 0px 0px 10px;
+    border-radius: 20px;
+}

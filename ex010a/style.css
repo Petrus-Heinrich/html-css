@@ -1,0 +1,39 @@
+body{
+    background-image:url(wpM.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: white 0px 0px 2px;
+
+    
+
+
+}
+h1{
+    color: aliceblue;
+    text-shadow: rgb(129, 3, 239) 0px 0px 5px;
+
+
+}
+h2{
+    color: aliceblue;
+    text-shadow: rgb(129, 3, 239) 0px 0px 5px;
+
+
+
+}
+div{
+    img{
+        box-shadow: rgb(0, 0, 0) 0px 0px 10px;
+        border-radius: 124px;
+    }
+}
+div{
+    p{
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        text-shadow: white 0px 0px 5px;
+
+    }
+}
+
