@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Macondo&family=Pirata+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Bokor&family=Macondo&family=Pirata+One&display=swap');
+
+body{
+    /*
+    shorthand-background
+    color > image > repeat > attachment > position
+
+    background: black url(imagens/backgroundvaporwave1011b.jpg) no-repeat fixed center;
+    */
+
+    background-color: black;
+    background-image: url(imagens/backgroundvaporwave1011b.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+main{
+
+    
+}
+h1{
+    font-family: "Bokor", system-ui;
+}
+p{
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 22px;
+    font-family: "Almendra SC", serif;
+
+}
+#container{
+    background-color: rgba(255, 255, 255, 0.458);
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.496);
+    text-align: center;
+    border: black solid 2px;
+    min-height: 800px;
+}
+#conteudo{
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    padding: 30px;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
