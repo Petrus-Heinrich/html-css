@@ -1,0 +1,26 @@
+div.quadrado{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+body{
+    background-image: url(imagens/backgroundvaporwave1011e.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div#q1{
+
+}
+div#q2{
+    background-image: linear-gradient(to bottom, yellow, orange);
+}
+div#q3{
+    background-image: url(imagens/wallpaper1011a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

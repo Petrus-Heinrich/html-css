@@ -1,0 +1,12 @@
+body{
+    background-image: url(imagens/backgroundvaporwave1011b.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.bloco{
+    border: 2px solid black;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url(imagens/backgroundvaporwave1011b.jpg);
+}
