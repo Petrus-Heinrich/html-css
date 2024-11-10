@@ -8,5 +8,21 @@ div.bloco{
     border: 2px solid black;
     height: 200px;
     border-radius: 10px;
-    background-image: url(imagens/backgroundvaporwave1011b.jpg);
+    background-image: url(imagens/backgroundvaporwave1011e.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+div#q1{
+
+}
+div#q2{
+    
+}
+div#q3{
+    
+}
+div#q4{
+    
 }
