@@ -1,0 +1,18 @@
+body{
+
+}
+table{
+    width: 400px;
+    border-collapse: collapse;
+    border: 5px solid red;
+}
+td{
+    border: 1px solid black;
+    padding: 8px;
+}
+.l2{
+    background-color: rgb(175, 175, 175);
+}
+.d1{
+    background-color: rgb(242, 255, 0);
+}
