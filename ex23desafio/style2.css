@@ -1,0 +1,21 @@
+table{
+    width: 600px;
+    height: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+.th1{
+    background-color: lightslategrey;
+    color: white;
+}
+.tr2{
+    background-color: lightslategrey;
+    color: white;
+    text-align: left;
+}
+th,td{
+    border: 2px solid black;
+}
+.num{
+    text-align: center;
+}

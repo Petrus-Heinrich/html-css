@@ -1,0 +1,17 @@
+table#tb1{
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    border-collapse: collapse;
+
+}
+td{
+    border: 2px solid black;
+}
+table#tb2{
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    border-collapse: collapse;
+    margin-top: 100px;
+}
