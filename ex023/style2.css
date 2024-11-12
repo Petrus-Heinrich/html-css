@@ -1,0 +1,43 @@
+body{
+text-align: center;
+}
+table{
+    width: 600px;
+    border-collapse: collapse;
+    margin: auto;
+    position: relative;
+}
+caption{
+    background-color: aliceblue;
+}
+thead{
+    background-color: rgb(197, 197, 197);
+}
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: rgb(197, 197, 197);
+}
+tfoot{
+    background-color: rgb(197, 197, 197);
+}
+th{
+    border: 1px solid black;
+    padding: 8px;
+}
+tr{
+    border: 1px solid black;
+    padding: 8px;
+}
+tbody > tr:nth-child(2n){
+    background-color: rgb(160, 176, 255);
+}
+td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+.num{
+    text-align: right;
+    width: 100px;
+}
