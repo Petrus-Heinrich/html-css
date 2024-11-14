@@ -1,0 +1,11 @@
+body{
+    background-image: url(fundo1411c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+div#tela{
+    text-align: center;
+    display: block;
+}
