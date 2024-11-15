@@ -1,15 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    background-image: url(fundo1411c.jpg);
+    background-image: url(texturam.jpg);
     background-repeat: no-repeat;
+    background-position: top;
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
 }
-div#tela{
+main{
+    height: 100vh;
+    position: relative;
 }
-iframe{
-    border-radius: 30px;
-    position: fixed;
-    top: 2%;
-    left: 147px;
+#smartphone{
+    height: 606px;
+    width: 296px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-image: url(smartphone1511b.png);
+    background-repeat: no-repeat;
+}
+#tela{
+    position: relative;
+    top: 35px;
+    left: 14px;
+    width: 265px;
+    height: 530px;
 }
