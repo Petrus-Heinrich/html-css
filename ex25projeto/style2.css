@@ -1,6 +1,5 @@
 body{
     background-image: url(fundo1411b.webp);
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: 300px;
+    background-size: cover;
 }

@@ -6,6 +6,10 @@ body{
     background-attachment: fixed;
 }
 div#tela{
-    text-align: center;
-    display: block;
+}
+iframe{
+    border-radius: 30px;
+    position: fixed;
+    top: 2%;
+    left: 147px;
 }
