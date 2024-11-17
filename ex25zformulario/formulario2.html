@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+</head>
+<body>
+    <h1>Digite o login e a senha abaixo</h1>
+    <form action="formulario.js" method="post" autocomplete="on">
+        <p>
+            <label for="logi">Nome de usuário:</label>
+            <input type="text" name="logi" id="logi" required minlength="8" maxlength="30" size="20" placeholder="digite o login" autocomplete="username">
+        </p>
+        
+        <p>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" required minlength="8" maxlength="20" size="20" placeholder="digite a senha" autocomplete="current-password">
+        </p>
+        
+        <p>
+            <input type="submit" value="Entrar">
+            <input type="reset" value="Limpar">
+        </p>
+        <p>
+            <label for="data"> Data:</label>
+            <input type="date" name="data" id="data">
+        </p>
+        <p>
+            <label for="range"> range:</label>
+            <input type="range" name="range" id="range">
+        </p>
+        <p>
+            <label for="check">checkbox</label>
+            <input type="checkbox" name="check" id="check">
+        </p>
+        <p>
+            <label for="dtl">data e hora</label>
+            <input type="datetime-local" name="dtl" id="dtl">
+        </p>
+        <p>
+            <label for="email"> Email</label>
+            <input type="email" name="email" id="email" required autocomplete="email">
+        </p>
+        <p>
+            <label for="tel">Telefone</label>
+            <input type="tel" name="tel" id="tel" required autocomplete="tel">
+        </p>
+        <p>
+            <label for="rad"> radio</label>
+            <input type="radio" name="rad" id="rad">
+        </p>
+        <p>
+            <label for="imagem">Input de Imagem</label>
+            <input type="image" src="https://preview.redd.it/while-i-was-making-this-i-thought-about-about-what-a-grey-v0-r3o1uqxgnpnd1.jpg?width=640&crop=smart&auto=webp&s=81d7674534c91ef18e496a11d162cc56df4a2df1" alt="imagem">
+        </p>
+        <p>
+            <fieldset>
+                <legend>Esportes</legend>
+                <input type="checkbox" name="tenis" id="tenis">
+                <label for="tenis">Tenis</label>
+                <br>
+                <input type="checkbox" name="volei" id="volei">
+                <label for="tenis">Volei</label>
+                <br>
+                <input type="checkbox" name="QH" id="QH">
+                <label for="tenis">Queimar Hereges</label>
+                <br>
+                <br>
+                <input type="reset" value="Limpar">
+            </fieldset>
+        </p>
+    </form>
+</body>
+</html>
