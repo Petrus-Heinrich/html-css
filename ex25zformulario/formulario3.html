@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Exemplo de formulários</h1>
+    <form action="formulario.JS" method="post">
+        <p>
+            <label for="estado">Estado</label>
+            <select name="select" id="select">
+                <optgroup label="Região Sul">
+                    <option value="Pr">Paraná</option>
+                    <option value="Sc" selected>Santa Catarina</option>
+                    <option value="Rs">Rio Grande do Sul</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="profissao"> Profissão</label>
+            <input type="text" name="profissao" id="profissao" list="profs">
+            <datalist id="profs">
+                <option value="inqui">Inquisitor</option>
+                <option value="temp">Templário</option>
+                <option value="crusado">Crusado</option>
+                <option value="capel">Capelão</option>
+            </datalist>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
