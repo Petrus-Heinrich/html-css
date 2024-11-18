@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/* estilo para impressão */
+
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+html{
+    font-family: "Poltawski Nowy", serif;
+    font-size: 16px;
+}

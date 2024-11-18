@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/* estilo para telas */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: "Cinzel", serif;
+    font-size: 16px;
+}
