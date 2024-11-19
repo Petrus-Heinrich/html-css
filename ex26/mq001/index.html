@@ -31,6 +31,24 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa omnis odio voluptatibus autem modi numquam adipisci molestias enim. Quaerat unde laboriosam sit velit et? Illo consequatur rerum, facilis accusamus eaque quasi. Magni molestias et nam, optio ullam ut ducimus labore omnis porro, dignissimos placeat dolor pariatur possimus consectetur autem rerum neque alias quisquam, quod sequi aliquam! Animi harum quasi aliquid dicta atque distinctio autem voluptas! Nostrum earum corporis dolor ipsa aliquid neque mollitia soluta? Modi totam ea saepe illo vel?
             </p>
         </article>
+        <br>
+        <div id="relogio">
+            Aqui será exibido o horário.
+        </div>
+    
+        <script>
+            // Função para atualizar o horário
+            function atualizarHora() {
+                const agora = new Date();
+                const options = { hour: 'numeric', minute: 'numeric', second: 'numeric', day: 'numeric', month: 'long', year: 'numeric' };
+                const horarioFormatado = agora.toLocaleString('pt-BR', options);
+                document.getElementById('relogio').textContent = 'data da impressçao: ' + horarioFormatado;
+            }
+    
+            // Chamar a função inicialmente e a cada segundo
+            atualizarHora();
+            setInterval(atualizarHora, 1000);
+        </script>
     </main>
 </body>
 </html>

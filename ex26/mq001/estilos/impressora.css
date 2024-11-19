@@ -11,4 +11,12 @@
 html{
     font-family: "Poltawski Nowy", serif;
     font-size: 16px;
+    line-height: 26px;
 }
+menu{
+    display: none;
+}
+
+/*article::after{
+    content: 'esse artigo foi impresso no dia ';
+}*/
