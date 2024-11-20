@@ -1,3 +1,20 @@
 @charset "UTF-8";
 
 /* configurações gerais */
+
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poltawski Nowy", serif;
+    font-size: 16px;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(134, 150, 166);
+}
+h1{
+    padding: 10px;
+}
