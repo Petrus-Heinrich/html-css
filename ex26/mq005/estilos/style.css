@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+@media screen and (min-width:621px){
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -10,6 +11,12 @@ header{
     color: white;
     text-align: center;
     padding-bottom: 10px;
+}
+#mportraite{
+    display: none;
+}
+#mlandscape{
+    display: active;
 }
 #titulomenu{
     margin: 0px;
@@ -36,7 +43,8 @@ main > p {
     text-indent: 50px;
 }
 main{
-    width: 900px;
+    max-width: 900px;
+    min-width: 300px;
     margin: auto;
     margin-top: 10px;
     background-color:  rgba(184, 178, 204, 0.121);
@@ -50,4 +58,5 @@ footer{
     font-style: italic;
     margin: 0px;
     padding: 3px;
+}
 }
