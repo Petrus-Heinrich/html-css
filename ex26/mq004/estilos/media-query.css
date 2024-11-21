@@ -2,6 +2,58 @@
 
 /* Todas as demais midias */
 
+/* typical device breakpoints */
+
 @media print {
-    
+    main{
+        border: 2px solid black;
+    }
+    h1{
+        color: black;
+        text-shadow: none;
+    }
+    #print{display: block;}
+    #laptop{display: none;}
+    #phone{display: none;}
+    #tablet{display: none;}
+    #tv{display: none;}
+}
+@media screen and (min-width:768px) and (max-width:1024px) { /*tablet*/
+    body{
+        background: black url(../imagens/bgtablet2011d.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #print{display: none;}
+    #laptop{display: none;}
+    #phone{display: none;}
+    #tablet{display: block;}
+    #tv{display: none;}
+}
+@media screen and (min-width:1025px) and (max-width:1440px) { /*desktop e leptop*/
+    body{
+        background: black url(../imagens/bgleptop2011a.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #print{display: none;}
+    #laptop{display: block;}
+    #phone{display: none;}
+    #tablet{display: none;}
+    #tv{display: none;}
+}
+@media screen and (min-width:1441px){ /*telas grandes*/
+    body{
+        background: black url(../imagens/bgtv2011e.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #print{display: none;}
+    #laptop{display: none;}
+    #phone{display: none;}
+    #tablet{display: none;}
+    #tv{display: block;}
 }
