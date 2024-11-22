@@ -1,62 +1,79 @@
 @charset "UTF-8";
 
-@media screen and (min-width:621px){
-body{
+*{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
 }
 header{
-    background-image: linear-gradient(to Bottom, rgb(27, 27, 255), rgb(48, 0, 206));
-    color: white;
+    background-image: linear-gradient(to bottom, rgb(46, 46, 199), rgb(23, 23, 108));
     text-align: center;
-    padding-bottom: 10px;
 }
-#mportraite{
+header > h1{
+    padding: 30px;
+    font-size: 30px;
+}
+#burguer{
+    background-color: rgb(23, 23, 108);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+}
+#burguer:hover{
+    background-color: white;
+    color: rgb(23, 23, 108);
+    cursor: pointer;
+}
+menu{
     display: none;
 }
-#mlandscape{
-    display: active;
+menu > ul{
+    list-style-type: none;
 }
-#titulomenu{
-    margin: 0px;
-    padding: 20px;
-}
-.opmenu{
-    background-color: rgb(0, 20, 151);
-    color: white;
+menu > ul > li > a{
+    display: block;
     text-decoration: none;
-    margin: 0px;
-    padding: 20px;
-    border-radius: 6px;
-}
-main > h1 {
-    margin: 0px;
-    padding-bottom: 5px;
-    padding-top: 40px;
+    background-color: rgb(23, 23, 108);
     text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid rgb(46, 46, 199);
 }
-main > p {
-    margin: 0px;
-    padding: 20px;
-    text-align: justify;
-    text-indent: 50px;
+menu > ul > li > a:hover{
+    background-color: rgb(46, 46, 199);
 }
 main{
-    max-width: 900px;
-    min-width: 300px;
+    width: 80vw;
     margin: auto;
-    margin-top: 10px;
-    background-color:  rgba(184, 178, 204, 0.121);
-    border-radius: 10px;
+    padding: 0px 0px 80px 0px;
+}
+article > h1{
+    padding-bottom: 20px;
+    text-align: center;
+}
+article > p{
+    text-indent: 30px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+article{
+    border: 1px solid black;
+    border-radius: 0px 0px 10px 10px;
+    padding: 40px 20px 40px 20px;
 }
 footer{
-    background-color: rgb(0, 20, 151);
-    color: rgb(196, 167, 0);
-    text-decoration: none;
+    background-color: rgb(23, 23, 108);
+    color: rgb(188, 160, 0);
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-style: italic;
-    margin: 0px;
-    padding: 3px;
-}
 }

@@ -5,37 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/iconlaptop2011m.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/smartphones.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <title>Exercicio Media Query</title>
 </head>
 <body>
     <header>
         <h1 id="titulomenu"> Meu Site</h1>
-        <menu id="mportraite">
+        <span id="burguer" class="material-symbols-outlined" onclick="clickmenu()"> menu </span>
+        <menu id="itens">
             <ul>
-                <li> <a class="opmenu" href="">Opcão 1</a> </li>
-                <li> <a class="opmenu" href="">Opcão 2</a> </li>
-                <li> <a class="opmenu" href="">Opcão 3</a> </li>
-                <li> <a class="opmenu" href="">Opcão 4</a> </li>
-                <li> <a class="opmenu" href="">Opcão 5</a> </li>
+                <li> <a href="">Opcão 1</a> </li>
+                <li> <a href="">Opcão 2</a> </li>
+                <li> <a href="">Opcão 3</a> </li>
+                <li> <a href="">Opcão 4</a> </li>
+                <li> <a href="">Opcão 5</a> </li>
             </ul>
-        </menu>
-        <menu id="mlandscape">
-            <a class="opmenu" href="">Opcão 1</a>
-            <a class="opmenu" href="">Opcão 2</a>
-            <a class="opmenu" href="">Opcão 3</a>
-            <a class="opmenu" href="">Opcão 4</a>
-            <a class="opmenu" href="">Opcão 5</a>
         </menu>
     </header>
     <main>
+        <article>
         <h1> Testando Media Queries</h1>
         <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat porro totam perspiciatis sequi voluptatem expedita alias tempore officiis optio fugit ex vitae dignissimos culpa error nostrum nemo fugiat, ullam praesentium soluta veritatis voluptates et iusto. Laudantium numquam minus officiis dolores placeat harum, odio, facilis nobis suscipit modi veritatis voluptas debitis facere neque ducimus atque libero omnis eius! Ipsa, nesciunt. Aliquid error ad a at nobis accusantium, odio quasi doloremque rem commodi ducimus alias! Ex cum nobis magni qui nostrum nesciunt aliquam quaerat accusamus! A ratione maxime, ad repellendus fugiat neque.</p>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti cumque necessitatibus nesciunt id cum fugiat, similique placeat maiores, magni, reiciendis totam laboriosam ad beatae porro commodi. Nostrum quod placeat dignissimos quasi numquam maxime expedita nihil officiis nesciunt? Voluptatibus explicabo esse fuga doloribus amet. Ab a doloribus harum deleniti dolor eos natus aliquam molestiae voluptatum hic dolorum, repellendus id nobis consequatur perspiciatis eligendi, vero in iste accusamus voluptate inventore ea. Voluptatum!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis enim dolores consequuntur exercitationem minima necessitatibus sapiente neque vel provident alias sunt voluptates veritatis magni inventore, tenetur ab quisquam suscipit fuga consequatur ullam a, ipsam expedita dicta amet. Dolores velit laboriosam libero corporis sed at dicta delectus dolore, perferendis nam reiciendis debitis! Impedit amet quas sapiente vero excepturi ut, distinctio dignissimos placeat cupiditate accusamus! Quos molestiae dolorem doloribus sint ipsam harum illum veniam optio explicabo quas cumque rerum eveniet, reprehenderit enim ea amet tempora nisi nihil quod excepturi atque possimus tenetur voluptatibus sapiente! Ab maiores repudiandae accusantium ex! Suscipit amet itaque, illo at voluptate nostrum laborum. Quisquam, explicabo! Perferendis dolorum animi beatae optio quo explicabo quia? Eos assumenda excepturi obcaecati explicabo.</p>
+        </article>
     </main>
     <footer>
         <p>Site criado por Pedro H Scuciato &reg;</p>
     </footer>
+    <script>
+        function clickmenu(){
+            if (itens.style.display == 'block'){itens.style.display = 'none'}
+            else {itens.style.display = 'block'}
+        }
+    </script>
 </body>
 </html>
