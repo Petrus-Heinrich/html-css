@@ -45,7 +45,10 @@ menu > ul > li > a{
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     border: 2px solid rgb(46, 46, 199);
+    border-radius: 10px;
 }
 menu > ul > li > a:hover{
     background-color: rgb(46, 46, 199);
