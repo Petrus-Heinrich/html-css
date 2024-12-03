@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Automatizador Grepolis</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <button id="addGold">Adicionar 1000 Golds</button>
+
+    <script>
+        $(document).ready(function() {
+            $("#addGold").click(function() {
+                // Simulando uma requisição POST para o login
+                $.post("https://br134.grepolis.com/login", {
+                    username: "mandi",
+                    password: "xrl8spc1",
+                    // Outros campos do formulário de login (se necessário)
+                }, function(data) {
+                    // Extrair o token de sessão da resposta
+                    var token = extractTokenFromResponse(data);
+
+                    // Simular a navegação para a página do mundo Oricos
+                    // (O URL exato pode variar)
+                    $.get("https://br134.grepolis.com/game/world/oricos", {
+                        token: token
+                    }, function(data) {
+                        // Encontrar o formulário de envio de recursos e simulá-lo
+                        var form = $(data).find("#resource_form");
+                        var goldInput = form.find("input[name='gold']");
+                        goldInput.val("1000");
+                        // Enviar o formulário (o método pode variar dependendo da estrutura do formulário)
+                        form.submit();
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

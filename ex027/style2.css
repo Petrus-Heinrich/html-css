@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Patrick+Hand+SC&family=Rouge+Script&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Patrick Hand SC", cursive;
+}
+
+body{
+    background-image: url(imagens/bg2811c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.h1a{
+    font-family: "Rouge Script", cursive;
+}
+
+h1{
+    font-family: "Patrick Hand", cursive;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.linkmenu:hover{
+    font-size: 20px;
+    transition-duration: 0.3s;
+    color: rgb(168, 143, 0);
+    text-shadow: 0px 0px 10px gold;
+    cursor: pointer;
+}
+
+header{
+    background-color: #c5c4c4;
+    background-image: url(imagens/bg2811f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.menu{
+    text-align: center;
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+main{
+    width: 70vw;
+    margin: auto;
+
+    background-color: rgba(250, 235, 215, 0.473);
+    border-radius: 0px 0px 20px 20px;
+}
+
+section{
+    display: flex;
+    background-color: rgba(221, 238, 253, 0.347);
+
+    padding: 30px 10px;
+}
+
+img{
+    width: 90%;
+    border-radius: 30px;
+}
+
+#sec2{
+    flex-direction: row-reverse;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+#img2{
+    float: right;
+}
+
+aside{
+    text-align: center;
+    margin: 30px;
+    padding: 30px 10px;
+    text-shadow: 0px 0px 5px 5px rgb(78, 62, 0);
+
+}
+
+aside > h1{
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f145;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Torna os itens da lista flexíveis */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* style2.css */
+figure img {
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave */
+  }
+  
+  figure img:hover {
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  }
+  
+  .expanded {
+    transform: scale(1.4); /* Aumenta o tamanho da imagem em 20% */
+  }

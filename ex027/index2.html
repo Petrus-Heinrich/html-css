@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>flex box teste 2</title>
+</head>
+<body>
+    <header>
+        <h1 class="h1a">Nome da Loja</h1>
+        <nav>
+            <ul class="menu">
+                <li><a class="linkmenu" href="#">Início</a></li>
+                <li><a class="linkmenu" href="#">Produtos</a></li>
+                <li><a class="linkmenu" href="#">Contato</a></li>
+                <li><a class="linkmenu" href="#">Login</a></li>
+                <li><a class="linkmenu" href="#">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="itens">
+            <figure>
+                <img src="imagens/bg2811a.jpg" alt="">
+            </figure>
+            <article>
+                <h1>Item 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil harum modi enim, natus nemo fugiat, doloremque reiciendis soluta, fugit deleniti voluptas porro aut. Veniam nam facilis illo non! Eaque, soluta?</p>
+            </article>
+        </section>
+        <section class="itens" id="sec2">
+            <figure>
+                <img src="imagens/bg2811a.jpg" alt="" id="img2">
+            </figure>
+            <article>
+                <h1>Item 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quisquam sequi aut officiis porro eveniet ex nam enim eius, reprehenderit deleniti accusamus excepturi error dolor molestiae tenetur similique aspernatur labore?</p>
+            </article>
+        </section>
+        <section class="itens">
+            <figure>
+                <img src="imagens/bg2811a.jpg" alt="">
+            </figure>
+            <article>
+                <h1>Item 3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore magni, exercitationem ipsam veritatis cumque neque impedit consectetur minus fugiat repellendus maiores eligendi natus distinctio, commodi eos, iusto beatae quam est!</p>
+            </article>
+        </section>
+        <aside>
+            <h1 class="h1a">Aside</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic commodi, impedit aspernatur dolore alias provident velit ab quam fugiat rem repudiandae mollitia suscipit at reprehenderit doloremque eos sint ratione vel?</p>
+        </aside>
+    </main>
+    <footer>
+        <ul class="social-media">
+            <li><a href="https://www.facebook.com"><img src="imagens/face0112b.png" alt="Facebook"></a></li>
+            <li><a href="https://www.instagram.com"><img src="imagens/insta0112a.png" alt="Instagram"></a></li>
+            <li><a href="https://www.twitter.com"><img src="imagens/youtube0112c.png" alt="Twitter"></a></li>
+            <li><a href="https://www.linkedin.com"><img src="imagens/Github0112d.png" alt="LinkedIn"></a></li>   
+    
+        </ul>
+        <small>&copy; 2023 Meu Site. Todos os direitos reservados.</small>
+    </footer>
+</body>
+<script>
+    const images = document.querySelectorAll('figure img');
+  
+    images.forEach(image => {
+      image.addEventListener('click', () => {
+        image.classList.toggle('expanded');
+      });
+    });
+  </script>
+</html>
